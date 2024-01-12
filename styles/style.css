@@ -21,18 +21,17 @@
   gap: 32px;
 }
 
-.header__links-list-item {
+.header__link {
   text-decoration: none;
   border-bottom: 1px #000 solid;
 }
 
 .header__links-list-item_no-bullit {
   list-style-type: none;
-  border-bottom: 0;
 }
 
-.header__links-list-item_active {
-  border-bottom: none;
+.header__link_active {
+  border-bottom: 0;
 }
 
 .header__logo {
@@ -58,6 +57,7 @@
   display: flex;
   flex-direction: column;
   font-style: normal;
+  align-items: flex-start;
 }
 
 .address__link {
